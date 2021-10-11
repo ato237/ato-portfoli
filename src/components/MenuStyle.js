@@ -15,10 +15,17 @@ export const MenuContainer = styled(motion.div)`
   transition: 0.3s ease-in-out;
   opacity: $${({ clicked }) => (clicked ? "100%" : "0")};
   top: ${({ clicked }) => (clicked ? "0" : "-100%")};
+ 
+  @media screen and (max-width: 768px){
+    font-size: 70px;
+  }
 `;
 
 export const MenuWrapper = styled.ul`
   list-style-type: none;
+  padding-top: 50px;
+  transition: 0.3s ease-in-out;
+
 `;
 
 export const MenuElements = styled.li`
@@ -28,10 +35,19 @@ export const MenuElements = styled.li`
 export const Stuff = styled(Links)`
   text-decoration: none;
   color: white;
-  font-size: 130px;
+  font-size: 120px;
+  transition: 0.3s ease-in-out;
 
   &:hover {
     text-decoration: underline;
     transition: 0.9s ease-in-out;
+  }
+
+  @media screen and (max-width: 768px){
+    font-size: 70px;
+
+  }
+  @media screen and (max-width: 1068px){
+    font-size: 90px;
   }
 `;

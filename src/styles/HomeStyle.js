@@ -6,19 +6,22 @@ export const HomeContainer = styled.div`
 
 `;
 export const HomeWrapper = styled(motion.div)`
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-content: flex-start;
   padding: 0px;
 `;
 
 export const TextWelcome = styled(motion.h1)`
   font-family: "Gemunu Libre", sans-serif;
   cursor: pointer;
-  font-size: 200px;
+  font-size: 150px;
+  max-width: 500px;
+  padding-left: 100px;
+  margin-top: 0;
 `;
 export const TextDescribe = styled(motion.h3)`
   font-family: "Gemunu Libre", sans-serif;
-  font-size: 110px;
+  font-size: 50px;
 `;
 
 export const HelperDescr = styled(motion.p)`

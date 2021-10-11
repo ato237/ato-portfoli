@@ -19,13 +19,13 @@ function Home() {
 
       <HomeWrapper>
         <motion.div>
-          <TextWelcome>ATO</TextWelcome>
+          <TextWelcome>ATO BRADLEY</TextWelcome>
         </motion.div>
         <motion.div>
-          <TextDescribe>Hey! I am ATO</TextDescribe>
+          <TextDescribe>Full Stack Developer</TextDescribe>
         </motion.div>
         <motion.div>
-          <HelperDescr>Full Stack Developer</HelperDescr>
+          <HelperDescr>My PortFolio</HelperDescr>
         </motion.div>
       </HomeWrapper>
       <Arrow />

@@ -37,8 +37,8 @@ function Navbar() {
             <Title
               style={
                 clicked
-                  ? { cursor: "pointer", fontSize: 35, color: "#fff" }
-                  : { color: "#000", cursor: "pointer", fontSize: 35 }
+                  ? { cursor: "pointer", color: "#fff" }
+                  : { color: "#000", cursor: "pointer" }
               }
               to="/"
             >
@@ -47,7 +47,6 @@ function Navbar() {
           </NavbarElements>
           <NavbarElements>
             <motion.div
-              style={{ marginLeft: "100px" }}
               onMouseEnter={handleHover}
               onMouseLeave={handleHover}
               animate={
